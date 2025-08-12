@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Georgia', serif;
+    color: white;
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.parallax1 {
+    background-image: url('https://vein.es/wp-content/uploads/2024/06/5ac1992b-7a66-41e6-ba9f-2531d98d1361.jpg');
+}
+
+.parallax2 {
+    background-image: url('https://www.plataformadeartecontemporaneo.com/pac/wp-content/uploads/2019/05/Agnes-Varda.jpg');
+}
+
+.message {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 30px;
+    border-radius: 12px;
+    max-width: 600px;
+}
+
+.message h1 {
+    font-size: 3rem;
+    margin-bottom: 0.3em;
+}
+
+.message p {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-top: 0;
+}
+
+.black-block {
+    height: 100vh;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.message-black {
+    font-size: 2rem;
+    max-width: 700px;
+    line-height: 1.4;
+    color: #eee;
+}
+
+.message-subtitle {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-top: 0;
+}

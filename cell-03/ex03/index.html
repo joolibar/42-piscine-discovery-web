@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>To do or not to do</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 2rem 1rem;
+      color: #333;
+      user-select: none;
+    }
+    h1 {
+      font-weight: 600;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: white;
+      text-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+    #newBtn {
+      background: #ff6f91;
+      border: none;
+      border-radius: 50px;
+      padding: 0.8rem 2.5rem;
+      font-size: 1.2rem;
+      color: white;
+      cursor: pointer;
+      box-shadow: 0 8px 15px rgba(255,111,145,0.4);
+      transition: all 0.3s ease;
+      margin-bottom: 2rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      user-select: none;
+    }
+    #newBtn:hover {
+      background: #ff4a6e;
+      box-shadow: 0 12px 20px rgba(255,74,110,0.6);
+      transform: translateY(-3px);
+    }
+    #ft_list {
+      background: white;
+      width: 350px;
+      max-width: 100%;
+      min-height: 300px;
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+      display: flex;
+      flex-direction: column-reverse;
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: #667eea #e0e0e0;
+    }
+    #ft_list::-webkit-scrollbar {
+      width: 8px;
+    }
+    #ft_list::-webkit-scrollbar-track {
+      background: #e0e0e0;
+      border-radius: 8px;
+    }
+    #ft_list::-webkit-scrollbar-thumb {
+      background: #667eea;
+      border-radius: 8px;
+    }
+    .todo {
+      background: #667eea;
+      color: white;
+      padding: 1rem 1rem 1rem 1.2rem;
+      margin: 0.4rem 0;
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(102,126,234,0.5);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      user-select: text;
+      transition: background 0.3s;
+      animation: fadeInUp 0.4s ease forwards;
+
+      word-break: break-word;
+      overflow-wrap: break-word;
+      white-space: normal;
+    }
+    .todo span {
+      flex: 1 1 auto;
+      min-width: 0;
+    }
+    .todo:hover {
+      background: #5563de;
+    }
+    .delete-icon {
+      width: 20px;
+      height: 20px;
+      fill: white;
+      cursor: pointer;
+      transition: fill 0.3s, transform 0.3s;
+      flex-shrink: 0;
+    }
+    .delete-icon:hover {
+      fill: #ff6f91;
+      transform: scale(1.1);
+    }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(15px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    #emptyMessage {
+      text-align: center;
+      color: #999;
+      margin-top: 2rem;
+      font-style: italic;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>To do or not to do</h1>
+  <button id="newBtn" aria-label="Añadir nueva tarea">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+      <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"/>
+    </svg>
+    New
+  </button>
+  <div id="ft_list" aria-live="polite" aria-relevant="additions removals" role="list"></div>
+  <div id="emptyMessage">No tienes tareas pendientes. ¡Añade una!</div>
+
+  <script src="todo.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>It’s over 9000 - Calculator</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+    }
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+      width: 350px;
+      text-align: center;
+      animation: fadeIn 0.6s ease-in-out;
+    }
+    h1 {
+      margin: 0 0 1.2rem;
+      font-size: 1.5rem;
+      color: #333;
+      background: linear-gradient(to right, #667eea, #764ba2);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    label {
+      display: block;
+      margin-top: 1rem;
+      font-size: .95rem;
+      color: #555;
+      text-align: left;
+    }
+    input, select {
+      width: 100%;
+      padding: .7rem;
+      margin-top: .4rem;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      box-sizing: border-box;
+    }
+    input:focus, select:focus {
+      border-color: #667eea;
+      box-shadow: 0 0 8px rgba(102, 126, 234, 0.4);
+      outline: none;
+    }
+    input[type="submit"] {
+      cursor: pointer;
+      background: linear-gradient(90deg, #667eea, #764ba2);
+      color: #fff;
+      border: none;
+      margin-top: 1.4rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    input[type="submit"]:hover {
+      background: linear-gradient(90deg, #5563de, #5c3c91);
+      transform: translateY(-2px);
+    }
+    .hint {
+      font-size: .8rem;
+      color: #888;
+      margin-top: .7rem;
+      line-height: 1.3rem;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px) }
+      to { opacity: 1; transform: translateY(0) }
+    }
+  </style>
+</head>
+<body>
+  <main class="card" role="main">
+    <h1>It’s over 9000 — Calculadora</h1>
+    <form id="calcForm" novalidate>
+      <label for="left">Número izquierdo (>= 0)</label>
+      <input id="left" name="left" type="text" inputmode="numeric" autocomplete="off" />
+
+      <label for="op">Operador</label>
+      <select id="op" name="op">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+      </select>
+
+      <label for="right">Número derecho (>= 0)</label>
+      <input id="right" name="right" type="text" inputmode="numeric" autocomplete="off" />
+
+      <input type="submit" value="Try me!" />
+      <p class="hint">
+        Si el valor no es válido: "Error :(".<br>
+        División o módulo por cero: "It's over 9000!".
+      </p>
+    </form>
+  </main>
+
+  <script>
+    (function () {
+      const form = document.getElementById('calcForm');
+      const leftEl = document.getElementById('left');
+      const rightEl = document.getElementById('right');
+      const opEl = document.getElementById('op');
+
+      function isNonNegativeInteger(s) {
+        return /^\d+$/.test(String(s).trim());
+      }
+
+      function compute(a, b, op) {
+        switch (op) {
+          case '+': return a + b;
+          case '-': return a - b;
+          case '*': return a * b;
+          case '/': return a / b;
+          case '%': return a % b;
+          default: return NaN;
+        }
+      }
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        const leftVal = leftEl.value;
+        const rightVal = rightEl.value;
+        const op = opEl.value;
+
+        if (!isNonNegativeInteger(leftVal) || !isNonNegativeInteger(rightVal)) {
+          alert('Error :(');
+          return;
+        }
+
+        const a = Number(leftVal);
+        const b = Number(rightVal);
+
+        if ((op === '/' || op === '%') && b === 0) {
+          alert("It's over 9000!");
+          console.log("It's over 9000!");
+          return;
+        }
+
+        const result = compute(a, b, op);
+        alert(String(result));
+        console.log(result);
+      });
+
+      setInterval(function () {
+        alert('Please, use me...');
+      }, 30000);
+    })();
+  </script>
+</body>
+</html>
