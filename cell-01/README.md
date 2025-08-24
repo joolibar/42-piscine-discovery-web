@@ -31,7 +31,7 @@ Every page you build here is a tiny story, a digital footprint that merges **des
 
 ---
 
-## 🚀 How to View
+## 🚀 How to Run
 
 Open any `.html` file in your browser by double-clicking it or using:  
 ```bash
