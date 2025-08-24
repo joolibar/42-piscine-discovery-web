@@ -28,7 +28,7 @@ Here, you learn to create **dynamic, beautiful, and user-friendly experiences** 
 
 ---
 
-## 🚀 How to View
+## 🚀 How to Run
 
 Open any `.html` file in your browser as usual:  
 ```bash
