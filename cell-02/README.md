@@ -40,13 +40,13 @@ These files rely heavily on modern CSS engines.
 Simply **double-click** any `.html` file, or launch it from the terminal:
 ```bash
 # macOS
-open ex04/basics.html
+open ex01/responsive.html
 
 # Linux
-xdg-open ex04/basics.html
+xdg-open ex01/responsive.html
 
 # Windows
-start ex04\basics.html
+start ex01/responsive.html
 ```
 <br>
 
@@ -55,7 +55,7 @@ start ex04\basics.html
 <div align="center">
   
   <br>
-  <i>""Who needs JavaScript when you understand the Cascade? 💅"</i> ​
+  <i>"Who needs JavaScript when you understand the Cascade? 💅"</i> ​
   <br><br>
 
   Did this project inspire you?

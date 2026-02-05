@@ -49,7 +49,7 @@ open ex04/basics.html
 xdg-open ex04/basics.html
 
 # Windows
-start ex04\basics.html
+start ex04/basics.html
 ```
 <br>
 
