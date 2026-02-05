@@ -88,9 +88,10 @@ cat ex01/z
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" height="22">
   </a>
   &nbsp;
-  <a href="../README.md">
-    <img src="https://img.shields.io/badge/Discovery_Web-Return-00babc?style=flat-square&logo=42&logoColor=white" height="22" alt="Return">
+  <a href="https://github.com/joolibar/42-piscine-discovery-web/tree/main">
+    <img src="https://img.shields.io/badge/Discovery_Web-Return-00babc?style=flat-square&logo=42&logoColor=white" height="22" alt="Return to Root">
   </a>
+  <br>
   <br>
   <sub>
     © 2024 joolibar &nbsp;•&nbsp; Validated by Moulinette 🤖, styled by Humans 🎨.
