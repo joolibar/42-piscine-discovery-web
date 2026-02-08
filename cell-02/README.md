@@ -38,6 +38,7 @@ These files rely heavily on modern CSS engines.
 
 ### How to Render
 Simply **double-click** any `.html` file, or launch it from the terminal:
+
 ```bash
 # macOS
 open ex01/responsive.html
@@ -58,7 +59,7 @@ start ex01/responsive.html
   <i>"Who needs JavaScript when you understand the Cascade? 💅"</i> ​
   <br><br>
 
-  Did this project inspire you?
+  <strong>Did this project inspire you?</strong>
   <br>
   <a href="https://github.com/joolibar/42-piscine-discovery-web/stargazers"><strong>⭐ Drop a star</strong></a> 
   &nbsp;|&nbsp;

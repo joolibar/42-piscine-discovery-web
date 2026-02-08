@@ -64,7 +64,7 @@ cat ex01/z
   <i>"Home is where <code>/home/user</code> is."</i> ​
   <br><br>
 
-  Did this project inspire you?
+  <strong>Did this project inspire you?</strong>
   <br>
   <a href="https://github.com/joolibar/42-piscine-discovery-web/stargazers"><strong>⭐ Drop a star</strong></a> 
   &nbsp;|&nbsp;

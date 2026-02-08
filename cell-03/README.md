@@ -71,7 +71,7 @@ start ex03/index.html
   <p> <i>"The DOM is a tree, and JavaScript is the wind that shakes it. 🌳💨"</i> </p>
   <p> <b>Did the To-Do list remember your tasks?</b>
 
-  Did this project inspire you?
+  <strong>Did this project inspire you?</strong>
   <br>
   <a href="https://github.com/joolibar/42-piscine-discovery-web/stargazers"><strong>⭐ Drop a star</strong></a> 
   &nbsp;|&nbsp;

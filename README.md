@@ -58,7 +58,7 @@ This repository features a **Fractal Documentation Structure**.
   <i>"&lt;div&gt; is just a container. What you put inside changes the world."</i> ​🧑‍💻​
   <br><br>
 
-  Did this project inspire you?
+  <strong>Did this project inspire you?</strong>
   <br>
   <a href="https://github.com/joolibar/42-piscine-discovery-web/stargazers"><strong>⭐ Drop a star</strong></a> 
   &nbsp;|&nbsp;

@@ -61,7 +61,7 @@ start ex04/basics.html
   <i>"A website without CSS is like a house without paint. Structurally sound, but aesthetically raw." 🎨</i> ​
   <br><br>
 
-  Did this project inspire you?
+  <strong>Did this project inspire you?</strong>
   <br>
   <a href="https://github.com/joolibar/42-piscine-discovery-web/stargazers"><strong>⭐ Drop a star</strong></a> 
   &nbsp;|&nbsp;
