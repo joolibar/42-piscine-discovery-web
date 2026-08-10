@@ -1,94 +1,139 @@
-# 🌐 42 Discovery Web Piscine
+<div align="center">
 
-Welcome to the **42 Discovery Web Piscine** — a comprehensive journey through the fundamentals and advanced topics of web development, designed by the 42 Network. 
-
-This repository documents my personal progression through each cell, from shell basics to dynamic, interactive web applications.
-
-
-## 🚀 About This Repository
-
-The **42 Discovery Web Piscine** is an intensive, hands-on program by the 42 Network designed to push you to the edge of your comfort zone — and then beyond.
-
-Here, you don’t just learn to code; you learn to **think, create, and solve** like a true developer.
-
-This repo is a **chronicle of growth**, capturing exercises that evolve from simple shell commands to complex interactive web experiences powered by JavaScript and jQuery.
+<!-- / 01. HERO BANNER / -->
+<a href="https://github.com/joolibar/42-piscine-discovery-web">
+  <img src=".github/assets/discovery-web-piscine-banner.png" alt="42 Discovery Web Banner" width="100%">
+</a>
 
 
+<!-- / 02. SUBTITLE & CONCEPT / -->
+<h3>Zero Frameworks. Pure Web Foundations.</h3>
+
+<p align="center">
+  <b>Welcome to the 42 Discovery Web Piscine.</b><br>
+  <sub><i>Mastering HTML, CSS, and vanilla JavaScript to build interactive interfaces from the ground up.</i></sub>
+</p>
+
+<br>
 
 
+<!-- / 03. PROJECT METADATA / -->
+<p align="center">
+  <!-- Status Badge -->
+  <img src="https://img.shields.io/badge/STATUS-COMPLETED-2EA043?labelColor=151515&style=for-the-badge&logo=42&logoColor=white" alt="Status">
+  &nbsp;
+  <!-- Duration Badge -->
+  <img src="https://img.shields.io/badge/DURATION-1_WEEK-FF5A00?labelColor=151515&style=for-the-badge" alt="Duration">
+</p>
+
+
+<!-- / 04. TECH STACK / -->
+### 🛠️ Core Stack
+<sub><i>The technologies powering these interactive experiences.</i></sub>
+<br>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" alt="jQuery">
+</p>
+
+<br>
+</div>
+
+---
+<!-- / 05. ABOUT SECTION / -->
+## 🚀 The Concept: Pure Web Foundations
+
+This repository documents an intensive sprint at 42, focused strictly on mastering the core pillars of web development: HTML, CSS, and vanilla JavaScript.
+
+By building entirely without modern frameworks, the objective is to understand the raw mechanics of the web. From configuring the underlying system environment to structuring the DOM, cascading styles, and writing dynamic scripts with JavaScript and jQuery, this is a deep dive into how the browser interprets and executes code under the hood.
+
+<br>
+
+<!-- / 06. CURRICULUM (CELLS) / -->
 ## 🔍 The Curriculum (Cells)
 
-Each **Cell** focuses on a core layer of the web stack, building up from the operating system to the user interface.
+The progression is strictly linear, starting from the terminal and moving up through the front-end stack.
 
-Click on the **Cell Name** to jump directly to the source code and detailed exercises.
+*Click on any Cell to access its source code and specific technical documentation.*
 
-| Cell | Focus Area | What You'll Build |
+| Cell | Tech Focus | Technical Implementation |
 | :--- | :--- | :--- |
-| **[📂 Cell 00](./cell-00)** | **Shell Basics** | Command-line mastery, file manipulation & scripting logic. |
-| **[📂 Cell 01](./cell-01)** | **HTML & CSS Foundations** | Semantic layouts, hyperlinking & asset management. |
-| **[📂 Cell 02](./cell-02)** | **Advanced CSS & Interactive UI** | Responsive design, Flexbox grids, & Parallax visual effects. |
-| **[📂 Cell 03](./cell-03)** | **JavaScript & jQuery** | Dynamic interfaces, user interaction, and state management. |
-
-Every folder is a **mini-portfolio** showcasing clean, semantic code and thoughtful UI/UX decisions.
-
-
-## 🎯 Navigation Protocol
-
-This repository features a **Fractal Documentation Structure**.
-
-1.  **Global Overview:** This README provides the high-level roadmap.
-2.  **Deep Dive:** Inside every **Cell folder**, you will find a dedicated `README.md`.
-    * *These internal guides contain specific instructions, technical breakdowns, and the logic behind each exercise.*
-
-### 🚀 Execution Mode
-* **💻 For Cell 00 (Shell):** Open your terminal and run the scripts directly.
-* **🌍 For Cell 01-03 (Web):** Locate the `.html` files and open them in your browser (Chrome/Firefox) to render the visual experience.
+| **[📂 Cell 00](./cell-00)** | **Shell Basics** | Command-line mastery, directory routing, and shell scripting. |
+| **[📂 Cell 01](./cell-01)** | **HTML5 & CSS3** | Semantic DOM structuring, asset routing, and fundamental styling. |
+| **[📂 Cell 02](./cell-02)** | **Advanced CSS** | Responsive architecture, Flexbox grids, and visual rendering properties. |
+| **[📂 Cell 03](./cell-03)** | **JS & jQuery** | DOM manipulation, event handling, and dynamic state management. |
 
 <br>
 
-> 💡 **Pro Tip:** Start with **Cell 00** and progress linearly. The difficulty curve is designed to layer concepts on top of each other.
+> 💡 Every cell operates as a standalone technical exercise, emphasizing clean syntax and strict adherence to web standards.
 
 <br>
+
+<!-- / 07. NAVIGATION PROTOCOL / -->
+## 🎯 System Navigation
+
+This repository utilizes a **Fractal Documentation Structure**. While this root file provides the macroscopic overview, each Cell contains a dedicated `README.md` breaking down the specific code logic and execution steps.
+
+### ⚙️ Execution Flow
+*   **💻 Terminal (Cell 00):** Clone the repository and execute the bash scripts directly within your CLI.
+*   **🌍 Browser (Cells 01-03):** Locate the `.html` files and render them natively in any modern browser to execute the scripts and stylesheets.
+
+<br>
+
+> ⚠️ **Developer's Note:** To fully grasp the technical progression, review the code linearly. Each module lays the necessary syntax and logic foundation for the next layer of complexity.
+
 
 ---
 
+<br><br>
+
+<!-- / 08. FOOTER & CONTACT / -->
+
 <div align="center">
   
+  <i>"&lt;`div`&gt; is just a container. What you put inside changes the world."</i> 🧑‍💻
+  
   <br>
-  <i>"&lt;div&gt; is just a container. What you put inside changes the world."</i> ​🧑‍💻​
-  <br><br>
 
-  <strong>Did this project inspire you?</strong>
-  <br>
-  <a href="https://github.com/joolibar/42-piscine-discovery-web/stargazers"><strong>⭐ Drop a star</strong></a> 
-  &nbsp;|&nbsp;
-  <a href="https://github.com/joolibar"><strong>👀 Follow my journey</strong></a>
-  <br><br>
-
+  <!-- The Creator Block -->
   <a href="https://github.com/joolibar">
-    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGJjZnM1NTFnNHQ4emxiaWdoNGxzNjMwNTQ1eXY2NmVvcTVndXV6ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2z956IUc3J0noEOXUL/giphy.gif" width="30"> 
-  </a>
+    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGJjZnM1NTFnNHQ4emxiaWdoNGxzNjMwNTQ1eXY2NmVvcTVndXV6ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2z956IUc3J0noEOXUL/giphy.gif" width="35"> 
+  </a><br>
+  <span>Crafted by <b>joolibar</b></span><br>
+  <small><samp>Creative Developer building digital experiences at 42</samp></small>
+  
   <br>
   
-  <span>Crafted by <strong>joolibar</strong></span>
-  <br>
-  <small><samp>Creative Developer building digital experiences at 42</samp></small>
-
+  <!-- Social Badges & Return Anchor -->
   <a href="https://github.com/joolibar">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white" height="22">
+    <img src="https://img.shields.io/badge/GitHub-151515?style=for-the-badge&logo=github&logoColor=white" height="25">
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/jon-olibares-arana/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" height="22">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&v=1" height="25">
   </a>
   &nbsp;
-  <a href="mailto:42olibares@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email">
+  <a href="mailto:olibaresjon@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="25">
+  </a>
+  &nbsp;
+  <a href="https://github.com/joolibar/42-journey">
+    <img src="https://img.shields.io/badge/Journey-Return-FF5A00?labelColor=151515&style=for-the-badge&logo=42&logoColor=white" height="25">
   </a>
 
   <br>
-  <sub>
-    © 2024 joolibar &nbsp;•&nbsp; Validated by Moulinette 🤖, styled by Humans 🎨.
-  </sub>
+  
+  <!-- Legal & Sign-off -->
+  <sub>© 2026 joolibar &nbsp;•&nbsp; Peer-reviewed by the community 👥, styled by Humans 🎨.</sub>
+  
+  <br>
 
 </div>
+
+<!-- / 09. FINAL ANCHOR / -->
+<a href="https://github.com/joolibar/42-journey">
+  <img src=".github/assets/discovery-web-piscine-footer.png" alt="42 Discovery Web Footer" width="100%">
+</a>

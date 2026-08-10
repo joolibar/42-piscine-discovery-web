@@ -35,7 +35,7 @@ Click on the **Folder Name** to access the source code and view the rendered res
 
 <br>
 
-## 🚀 Execution Guideline
+## 🚀 Execution Guide
 
 Unlike shell scripts, these files live in the browser.
 
@@ -56,42 +56,26 @@ start ex04/basics.html
 ---
 
 <div align="center">
+  <br><br>
+  <i>"A website without CSS is like a house without paint. Structurally sound, but aesthetically raw." 🎨</i>
   
   <br>
-  <i>"A website without CSS is like a house without paint. Structurally sound, but aesthetically raw." 🎨</i> ​
-  <br><br>
-
-  <strong>Did this project inspire you?</strong>
-  <br>
-  <a href="https://github.com/joolibar/42-piscine-discovery-web/stargazers"><strong>⭐ Drop a star</strong></a> 
-  &nbsp;|&nbsp;
-  <a href="https://github.com/joolibar"><strong>👀 Follow my journey</strong></a>
-  <br><br>
 
   <a href="https://github.com/joolibar">
-    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGJjZnM1NTFnNHQ4emxiaWdoNGxzNjMwNTQ1eXY2NmVvcTVndXV6ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2z956IUc3J0noEOXUL/giphy.gif" width="30"> 
+    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGJjZnM1NTFnNHQ4emxiaWdoNGxzNjMwNTQ1eXY2NmVvcTVndXV6ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2z956IUc3J0noEOXUL/giphy.gif" width="35"> 
   </a>
   <br>
-  
-  <span>Crafted by <strong>joolibar</strong></span>
-  <br>
+  <span>Crafted by <b>joolibar</b></span><br>
   <small><samp>Creative Developer building digital experiences at 42</samp></small>
-
-  <a href="https://github.com/joolibar">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white" height="22">
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/jon-olibares-arana/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" height="22">
-  </a>
-  &nbsp;
-  <a href="https://github.com/joolibar/42-piscine-discovery-web/tree/main">
-    <img src="https://img.shields.io/badge/Discovery_Web-Return-00babc?style=flat-square&logo=42&logoColor=white" height="22" alt="Return to Root">
-  </a>
+  
   <br>
+  
+  <a href="https://github.com/joolibar/42-piscine-discovery-web">
+    <img src="https://img.shields.io/badge/Discovery_Web-Return-FF5A00?labelColor=151515&style=for-the-badge&logo=42&logoColor=white" height="25">
+  </a>
+  
   <br>
-  <sub>
-    © 2024 joolibar &nbsp;•&nbsp; Validated by Moulinette 🤖, styled by Humans 🎨.
-  </sub>
+  
+  <sub>© 2026 joolibar &nbsp;•&nbsp; Peer-reviewed by the community 👥, styled by Humans 🎨.</sub>
 
 </div>
