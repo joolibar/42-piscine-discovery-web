@@ -57,25 +57,16 @@ start ex04/basics.html
 
 <div align="center">
   <br><br>
+
   <i>"A website without CSS is like a house without paint. Structurally sound, but aesthetically raw." 🎨</i>
   
-  <br>
+  <br><br>
 
-  <a href="https://github.com/joolibar">
-    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGJjZnM1NTFnNHQ4emxiaWdoNGxzNjMwNTQ1eXY2NmVvcTVndXV6ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2z956IUc3J0noEOXUL/giphy.gif" width="35"> 
-  </a>
-  <br>
+  <a href="https://github.com/joolibar"><img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGJjZnM1NTFnNHQ4emxiaWdoNGxzNjMwNTQ1eXY2NmVvcTVndXV6ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2z956IUc3J0noEOXUL/giphy.gif" width="35" alt="Capybara"></a><br>
   <span>Crafted by <b>joolibar</b></span><br>
-  <small><samp>Creative Developer building digital experiences at 42</samp></small>
-  
-  <br><br>
-  
-  <a href="https://github.com/joolibar/42-piscine-discovery-web">
-    <img src="https://img.shields.io/badge/Discovery_Web-Return-FF5A00?labelColor=151515&style=for-the-badge&logo=42&logoColor=white" height="25">
-  </a>
-  
-  <br><br>
-  
+  <small><samp>Creative Developer building digital experiences at 42</samp></small><br><br>
+  <a href="https://github.com/joolibar/42-piscine-discovery-web"><img src="https://img.shields.io/badge/Discovery_Web-Return-FF5A00?labelColor=151515&style=for-the-badge&logo=42&logoColor=white" height="25" alt="Return"></a><br>
   <sub>© 2026 joolibar &nbsp;•&nbsp; Peer-reviewed by the community 👥, styled by Humans 🎨.</sub>
 
+  <br>
 </div>
